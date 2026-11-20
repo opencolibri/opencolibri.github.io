@@ -22,7 +22,7 @@ const selectId = `lang-select-${locale}`;
 </div>
 
 <script>
-  document.querySelectorAll('.lang-select__control').forEach((select) => {
+  document.querySelectorAll<HTMLSelectElement>('.lang-select__control').forEach((select) => {
     if (select.dataset.bound === 'true') return;
     select.dataset.bound = 'true';
     select.addEventListener('change', () => {
