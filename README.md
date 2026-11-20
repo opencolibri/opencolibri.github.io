@@ -30,6 +30,9 @@ To add a language, create `src/i18n/<code>.json` with its `locale` metadata (`la
 `match` prefixes) and the translated copy: the build generates `/<code>/`. The root `/` page redirects to the visitor's
 browser language (English by default).
 
+Every `src/i18n/<code>.json` must have exactly the keys of `en.json` (the `match` list can have any length). The build
+fails on a missing or unknown key.
+
 To add a partner, drop its SVG logo in `public/images/logo/` and add it to the `partners` list of `Landing.astro`.
 
 ## Deployment
