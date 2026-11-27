@@ -62,6 +62,14 @@
       "site": "Site-ul proiectului ↗",
       "docs": "Documentație ↗"
     },
+    "devKit": {
+      "tag": "Nou în Colibri Starter",
+      "title": "Dev-kit-ul",
+      "p": "Descrie-ți magazinul într-un singur fișier, starter.yaml: catalog, temă, limbi, monede, plugin-uri. castor dev-kit:apply schimbă doar ce diferă, după ce îți arată planul. Îl controlezi dintr-o interfață de administrare sau din terminal.",
+      "cta": "Descoperă dev-kit-ul ↗",
+      "altAdmin": "Pagina de vitrină a administrării dev-kit, cu planul unei schimbări de antet",
+      "alt": "Dev-kit-ul în terminal: un card pentru fiecare setare, cu planul schimbărilor alături"
+    },
     "packagesTitle": "Componentele sale, utilizabile separat",
     "packages": [
       { "name": "starter-skeleton", "p": "Pornește un nou proiect Sylius, gata de dezvoltare, cu o singură comandă." },

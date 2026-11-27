@@ -14,6 +14,7 @@ const org = 'https://github.com/opencolibri';
 const starterSite = 'https://starter.opencolibri.org/';
 const starterDocs = 'https://starter.opencolibri.org/docs/';
 const starterRepo = `${org}/colibri-starter`;
+const devKitDocs = `${starterDocs}dev-kit/`;
 const sections = [
   { id: 'why', label: t.nav.why },
   { id: 'projects', label: t.nav.projects },
@@ -137,6 +138,19 @@ const sections = [
         <a href={starterRepo} target="_blank" rel="noopener" class="btn btn-on-dark">GitHub ↗</a>
       </div>
     </article>
+
+    <a href={devKitDocs} target="_blank" rel="noopener" class="devkit">
+      <div class="devkit-visual">
+        <img class="devkit-admin" src={asset('images/dev-kit-storefront.webp')} alt={t.projects.devKit.altAdmin} width="1440" height="900" loading="lazy" />
+        <img class="devkit-term" src={asset('images/dev-kit-tui-overview.webp')} alt={t.projects.devKit.alt} width="1600" height="900" loading="lazy" />
+      </div>
+      <div class="devkit-copy">
+        <span class="tag">{t.projects.devKit.tag}</span>
+        <h3>{t.projects.devKit.title}</h3>
+        <p>{t.projects.devKit.p}</p>
+        <span class="devkit-cta">{t.projects.devKit.cta}</span>
+      </div>
+    </a>
 
     <h3 class="pkg-title">{t.projects.packagesTitle}</h3>
     <ul class="pkg-grid">
