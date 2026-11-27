@@ -62,6 +62,14 @@
       "site": "Site du projet ↗",
       "docs": "Documentation ↗"
     },
+    "devKit": {
+      "tag": "Nouveau dans Colibri Starter",
+      "title": "Le dev-kit",
+      "p": "Décrivez votre boutique dans un seul fichier, starter.yaml : catalogue, thème, langues, devises, plugins. castor dev-kit:apply ne change que ce qui diffère, après vous avoir montré le plan. À piloter depuis une interface d'administration ou depuis le terminal.",
+      "cta": "Découvrir le dev-kit ↗",
+      "altAdmin": "La page Vitrine de l'administration du dev-kit, avec le plan d'un changement d'en-tête",
+      "alt": "Le dev-kit dans le terminal : une carte par réglage, et le plan des changements à côté"
+    },
     "packagesTitle": "Ses briques, utilisables séparément",
     "packages": [
       { "name": "starter-skeleton", "p": "Démarre un nouveau projet Sylius, prêt à développer, en une commande." },
